@@ -1,0 +1,62 @@
+.button-row{
+    display: flex;
+    align-items: stretch;
+    width: 400px;
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+.button-cell {
+    width: 100px;
+    height: 100px;
+    font-size:xx-large;
+    background-color: #d8d9db;
+}
+
+.button-cell:hover{
+    background-color: #ebebeb;
+}
+
+.button-cell:active{
+    background-color: #bbbcbe;
+}
+
+.button-cell:last-child{
+    background-color: #df974c;
+}
+
+.button-cell:last-child:hover{
+    background-color: #dfb07e;
+    
+}
+
+.button-cell:last-child:active{
+    background-color: #dd8d37;
+};
+
+
+body {
+    margin: 0px;
+}
+
+
+.two-spacing {
+    width: 50%;
+}
+
+.three-spacing {
+    width: 75%;
+}
+
+.display {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    
+}
